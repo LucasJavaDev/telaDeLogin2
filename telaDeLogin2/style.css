@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: #301560;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 15px 0  #fff;
+}
+header{
+    margin-bottom: 40px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login p{
+    font-size: 23px;
+    font-weight: bold;
+    color: #2BA6E0;
+}
+
+#botao{
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: 2px solid #301560;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #301560;
+}
+#botao:hover{
+    background-color: #301560;
+    color: #fff;
+}
+
+.login input{
+    border: 2px solid #301560;
+    border-radius: 30px;
+    width: 250px;
+    padding-left: 10px;
+}
